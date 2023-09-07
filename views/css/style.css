@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background: linear-gradient(55deg,green,red);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.add{
+    width: 70%;
+
+    text-align: center;
+    padding: 40px 0px;
+}
+
+
+
+
+.task{
+    border: none;
+    padding: 10px 5px;
+    text-align: center; 
+    border-radius: 5px;
+}
+
+.task:focus{
+    outline: none;
+}
+
+.btn{
+    border: none;
+    padding: 10px 15px;
+    text-align: center; 
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.display{
+    
+    width: 50%;
+    /* justify-content: center; */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+.sec{
+    background-color: white;
+    width: 24.5%;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
