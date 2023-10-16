@@ -79,3 +79,5 @@ function convertToBase64(file){
     }
   })
 }
+
+.
